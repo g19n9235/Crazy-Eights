@@ -57,4 +57,13 @@ public class Card{
       String s = this.rank + " of " + this.suite;
       return s;
    }
+   
+   public boolean equals(Card c){
+   //since only one of each card is in a deck, equality is checked either by rank or suite not both
+      if(this.rank.equals(c.rank)|| this.suite.equals(c.suite)){
+         return true;
+      }
+      return false;
+   }
+   
 }
