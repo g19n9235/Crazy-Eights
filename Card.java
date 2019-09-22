@@ -52,6 +52,9 @@ public class Card{
 
    }
    
-   
    //methods
+   public String toString(){
+      String s = this.rank + " of " + this.suite;
+      return s;
+   }
 }
