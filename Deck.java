@@ -25,6 +25,12 @@ public class Deck{
          i++;
       }
    }
+
+      this.deck = new Card[52];
+      
+   }
+ 
+   //methods
    
    public void Shuffle(){
       //shuffle this deck
@@ -32,6 +38,7 @@ public class Deck{
    
    public String ShannonEntropy(){
       //return the Shannon entropy of the deck
+
       return "";
     
    }
@@ -58,5 +65,12 @@ public class Deck{
    public boolean equals(){
       //checks if two decks are equal
       return false;
+    
    }
+   
+   public String toString(){
+      //return a string form of the deck, i.e. a string telling what is contained in the deck
+     return null;
+   }
+   
 }
